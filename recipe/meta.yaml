@@ -1,5 +1,5 @@
 {% set name = "google-java-format" %}
-{% set version = "1.24.0" %}
+{% set version = "1.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/google/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: ee2c2613dd19b6a4d30bd9d8d15fb3f9eacdc1202ba27c43539eb2b96417f373
+  sha256: b054bc3616dcdabc0ea525572d7404b42c0e96897b8809b74f1a1e587b029afd
 
 build:
   noarch: generic
