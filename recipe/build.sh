@@ -18,6 +18,7 @@ tee ${PREFIX}/bin/google-java-format << EOF
 #!/bin/sh
 exec \${JAVA_HOME}/bin/java -jar \${CONDA_PREFIX}/libexec/google-java-format/google-java-format.jar "\$@"
 EOF
+chmod +x ${PREFIX}/bin/google-java-format
 
 tee ${PREFIX}/bin/google-java-format.cmd << EOF
 call %JAVA_HOME%\bin\java -jar %CONDA_PREFIX%\libexec\google-java-format\google-java-format.jar %*
