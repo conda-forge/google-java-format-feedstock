@@ -1,5 +1,5 @@
 context:
-  version: "1.36.0"
+  version: "1.36.1"
 
 package:
   name: google-java-format
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/google/google-java-format/archive/v${{ version }}.tar.gz
-  sha256: d310988c5a73ca130109f9cd51253959fd1fb31e9283f9fd531123963d4e1268
+  sha256: bbbb55cb0fac8592d023c4ec527e42cca0d6adfde8185d8ee483730b38dd97c6
 
 build:
   number: 0
